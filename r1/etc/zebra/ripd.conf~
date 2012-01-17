@@ -1,0 +1,8 @@
+hostname r1
+password zebra
+enable password zebra
+!
+router rip
+redistribute connected
+network 192.168.1.96/27
+network 10.0.3.0/30
